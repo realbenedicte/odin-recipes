@@ -1,5 +1,5 @@
 
-h1, h3{
+h1, h3, .title {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,30 +7,35 @@ h3 {
     color: blue;
 }
 
-
-.title{
+body {
     box-sizing: border-box;
+     display: block;
+}
+
+.title {
     text-align: center;
-    padding: 5px;
-    background-color: aquamarine;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
 }
 
 .recipe-list{
-    box-sizing: border-box;
     display: block;
     padding: 5px;
-    background-color: rgb(134, 255, 5);
-    margin-top: 20px;
+    /* background-color: rgb(134, 255, 5); */
+    margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* target children of recipe-list that also have an <a> tag */
 .recipe-list a{
-    box-sizing: border-box;
     display: block;
     text-align: center;
     padding: 10px;
     background-color: rgb(255, 5, 163);
     border: 2px solid rebeccapurple;
-    margin: 15px;
+    margin: 30px;
+    font-size: 20px;
 }
