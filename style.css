@@ -13,5 +13,17 @@ h3 {
     text-align: center;
     padding: 5px;
     background-color: aquamarine;
-    border: 5px solid rebeccapurple;
+}
+
+.recipe-list{
+    box-sizing: border-box;
+    display: block;
+    padding: 5px;
+    background-color: rgb(134, 255, 5);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe-list a{
+    display: block;
 }
