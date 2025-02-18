@@ -6,3 +6,12 @@ h1, h3{
 h3 {
     color: blue;
 }
+
+
+.title{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 5px solid rebeccapurple;
+}
